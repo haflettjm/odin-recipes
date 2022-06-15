@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+
+.title{
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    font-size: 1.5rem;
+    color: orangered;
+}
+.title h3{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.nav{
+    width:100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    font-size: 20px;
+}
+
+.nav a{
+    width:25%;
+    padding: 0.5rem;
+}
+
+.nav a:hover{
+    color: whitesmoke;
+}
